@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Аккаунт - Заказы</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header-top">
+		<div class="container">
+			<div class="header-top__content">
+				<p class="header-top__text">
+					Бесплатная доставка по России при заказе от 30 тыс. руб.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="header-main ">
+		<div class="container">
+			<div class="header-main__content">
+				<div class="header-main__flex block-flex">
+					<a class="header-main__logo" href="/lila">
+						<img class="header-main__logo-img header-main__logo-img_black" src="img/logo.png"
+							alt="LilaModa">
+						<img class="header-main__logo-img header-main__logo-img_white" src="img/logo_w.png"
+							alt="LilaModa">
+					</a>
+					<a class="header-main__catalog btn" href="catalog.html">
+						Каталог
+					</a>
+					<ul class="header-main__brands">
+						<li class="header-main__link">
+							<a class="link" href="#">
+								Leonisa
+							</a>
+						</li>
+						<li class="header-main__link">
+							<a class="link" href="#">
+								Byebra
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-main__flex block-flex">
+					<nav class="header-main__menu">
+						<ul>
+							<li class="header-main__link">
+								<a href="#" class="link">
+									О нас
+								</a>
+							</li>
+							<li class="header-main__link">
+								<a href="#" class="link">
+									Условия работы
+								</a>
+							</li>
+							<li class="header-main__link">
+								<a href="#" class="link">
+									Брендам
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header-main__interface">
+						<a href="cart.html" class="header-main__open-cart btn">
+							Корзина <span>(2)</span>
+						</a>
+						<a href="account-orders.html" class="header-main__open-account btn btn_fill">
+							Профиль
+						</a>
+						<button class="header-main__open-menu btn">
+							Меню
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-main__menu-mobile">
+	<div class="block-flex">
+		<ul class="header-main__brands">
+			<li class="header-main__link">
+				<a class="link" href="#">
+					Leonisa
+				</a>
+			</li>
+			<li class="header-main__link">
+				<a class="link" href="#">
+					Byebra
+				</a>
+			</li>
+		</ul>
+		<nav class="header-main__menu">
+			<ul>
+				<li class="header-main__link">
+					<a href="#" class="link">
+						О нас
+					</a>
+				</li>
+				<li class="header-main__link">
+					<a href="#" class="link">
+						Условия работы
+					</a>
+				</li>
+				<li class="header-main__link">
+					<a href="#" class="link">
+						Брендам
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="header-main__interface">
+		<a class="header-main__catalog btn" href="catalog.html">
+			Каталог
+		</a>
+		<a href="#" class="header-main__open-cart btn">
+			Корзина <span>(2)</span>
+		</a>
+		<a href="#" class="header-main__open-account btn btn_fill">
+			Профиль
+		</a>
+	</div>
+</div>
+</header>
+		<main class="main">
+			<section class="account account-orders">
+				<div class="container">
+					<div class="account__wrapp">
+						<div class="account__nav">
+							<ul class="account__menu">
+								<li>
+									<a href="#" class="account__link-active link">
+										Заказы
+									</a>
+								</li>
+								<li>
+									<a href="#" class="link">
+										Профиль
+									</a>
+								</li>
+								<li>
+									<a href="#" class="link">
+										Адреса доставки
+									</a>
+								</li>
+								<li>
+									<a href="#" class="link">
+										Сменить пароль
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="account__exit btn">
+								Выйти
+							</a>
+						</div>
+						<div class="account__content">
+							<h1 class="account__title h1">
+								Заказы
+							</h1>
+							<div class="account__body">
+								<div class="account-orders__sort">
+									<div class="account-orders__sorting">
+										<div class="select-box">
+	<div class="select-box__current" tabindex="1">
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked" />
+			<p class="select-box__input-text">По возрастанию цены</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="1" value="2" name="Ben" />
+			<p class="select-box__input-text">По убыванию цены</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="2" value="3" name="Ben" />
+			<p class="select-box__input-text">По дате публикации</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="3" value="4" name="Ben" />
+			<p class="select-box__input-text">По популярности</p>
+		</div>
+		<span class="select-box__icon">
+			<svg class="svg">
+				<use xlink:href="img/icons/icons.svg#sort"></use>
+			</svg>
+		</span>
+	</div>
+	<ul class="select-box__list">
+		<li>
+			<label class="select-box__option" for="0" aria-hidden="aria-hidden">По возрастанию цены</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="1" aria-hidden="aria-hidden">По убыванию цены</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="2" aria-hidden="aria-hidden">По дате публикации</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="3" aria-hidden="aria-hidden">По популярности</label>
+		</li>
+	</ul>
+</div>
+									</div>
+									<div class="account-orders__filter">
+										<label for="f-1" class="account-orders__filter-item">
+											<div class="radio">
+	<input class="radio__input" type="radio" id="f-1" name="filter" checked />
+	<span class="radio__visible"></span>
+</div>
+											<span>
+												Все
+											</span>
+										</label>
+										<label for="f-2" class="account-orders__filter-item">
+											<div class="radio">
+	<input class="radio__input" type="radio" id="f-2" name="filter" @@checked />
+	<span class="radio__visible"></span>
+</div>
+											<span>
+												Завершеные
+											</span>
+										</label>
+										<label for="f-3" class="account-orders__filter-item">
+											<div class="radio">
+	<input class="radio__input" type="radio" id="f-3" name="filter" @@checked />
+	<span class="radio__visible"></span>
+</div>
+											<span>
+												Не завершенные
+											</span>
+										</label>
+									</div>
+								</div>
+								<div class="account-orders__table">
+									<div class="account-orders__row">
+										<div class="account-orders__row-header">
+											<h4 class="account-orders__row-title">
+												Заказ #1
+											</h4>
+											<span class="account-orders__row-price">
+												8000 ₽
+											</span>
+										</div>
+										<div class="account-orders__row-body">
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Дата заказа
+												</div>
+												<div class="account-orders__col-body">
+													06.02.2022
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Бренд
+												</div>
+												<div class="account-orders__col-body">
+													LEONISA
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Товаров
+												</div>
+												<div class="account-orders__col-body">
+													7
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Статус
+												</div>
+												<div class="account-orders__col-body account-orders__status-process">
+													Товар в пути
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Дата доставки
+												</div>
+												<div class="account-orders__col-body">
+													20.02.2022
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<a href="#" class="account-orders__col-button btn">
+													Смотреть заказ
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="account-orders__row">
+										<div class="account-orders__row-header">
+											<h4 class="account-orders__row-title">
+												Заказ #1
+											</h4>
+											<span class="account-orders__row-price">
+												8000 ₽
+											</span>
+										</div>
+										<div class="account-orders__row-body">
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Дата заказа
+												</div>
+												<div class="account-orders__col-body">
+													06.02.2022
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Бренд
+												</div>
+												<div class="account-orders__col-body">
+													LEONISA
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Товаров
+												</div>
+												<div class="account-orders__col-body">
+													7
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Статус
+												</div>
+												<div class="account-orders__col-body account-orders__status-process">
+													Товар в пути
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Дата доставки
+												</div>
+												<div class="account-orders__col-body">
+													20.02.2022
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<a href="#" class="account-orders__col-button btn">
+													Смотреть заказ
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="account-orders__row">
+										<div class="account-orders__row-header">
+											<h4 class="account-orders__row-title">
+												Заказ #1
+											</h4>
+											<span class="account-orders__row-price">
+												8000 ₽
+											</span>
+										</div>
+										<div class="account-orders__row-body">
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Дата заказа
+												</div>
+												<div class="account-orders__col-body">
+													06.02.2022
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Бренд
+												</div>
+												<div class="account-orders__col-body">
+													LEONISA
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Товаров
+												</div>
+												<div class="account-orders__col-body">
+													7
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Статус
+												</div>
+												<div class="account-orders__col-body account-orders__status-process">
+													Товар в пути
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<div class="account-orders__col-title">
+													Дата доставки
+												</div>
+												<div class="account-orders__col-body">
+													20.02.2022
+												</div>
+											</div>
+											<div class="account-orders__col">
+												<a href="#" class="account-orders__col-button btn">
+													Смотреть заказ
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__social f-social">
+		<div class="container">
+			<div class="f-social__content">
+				<p class="f-social__text">
+					Подпишитесь на наши социальные сети:
+				</p>
+				<div class="f-social__links block-flex">
+					<!--noindex-->
+					<a href="#" class="f-social__item">
+						<span class="f-social__icon">
+							<svg class="svg">
+								<use xlink:href="img/icons/icons.svg#inst"></use>
+							</svg>
+						</span>
+						<p class="f-social__title">
+							Instagram
+						</p>
+					</a>
+					<a href="#" class="f-social__item">
+						<span class="f-social__icon">
+							<svg class="svg">
+								<use xlink:href="img/icons/icons.svg#fb"></use>
+							</svg>
+						</span>
+						<p class="f-social__title">
+							Facebook
+						</p>
+					</a>
+					<!--/noindex-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="footer__flex block-flex">
+			<a class="footer__logo" href="/lila">
+				<img class="footer__logo-img" src="img/logo.png" alt="LilaModa">
+			</a>
+			<div class="footer__contacts">
+				<div class="footer__contacts-part-one">
+					<p>
+						Красная пл., Москва, Россия, 109012
+					</p>
+					<a href="mailto:info@lilamoda.ru">
+						info@lilamoda.ru
+					</a>
+				</div>
+				<div class="footer__contacts-part-two">
+					<div class="footer__phone">
+						<a href="tel:8 800 600 49 97" class="block-flex">
+							<span>
+								<svg class="svg">
+									<use xlink:href="img/icons/icons.svg#airplane"></use>
+								</svg>
+							</span>
+							<p>
+								8 800 600 49 97
+							</p>
+						</a>
+					</div>
+					<p class="footer__time">
+						9:00 - 19:00
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer__flex block-flex">
+			<p class="footer__copyright">
+				© LILAMODA 2019-2022
+			</p>
+			<a href="#" class="footer__privacy">
+				Пользовательское соглашение
+			</a>
+		</div>
+	</div>
+</footer>
+<script src="files/jquery/jquery-3.6.0.min.js"></script>
+<!-- <script src="files/jquery/jq.js"></script> -->
+<script src="js/app.min.js"></script>
+	</div>
+</body>
+
+</html>
