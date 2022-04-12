@@ -1677,6 +1677,7 @@ body {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 80px;
+  align-items: start;
 }
 .cart__item {
   display: grid;
@@ -1778,6 +1779,7 @@ body {
 }
 .cart__summary-info {
   background-color: var(--c-bg-light);
+  padding-bottom: 40px;
 }
 .cart__summary-header {
   border-bottom: 1px solid #B0B0B3;
@@ -1839,7 +1841,7 @@ body {
   padding: 0 32px 16px;
 }
 .cart__summary-button {
-  margin: 16px 32px 40px;
+  margin: 16px 32px 0;
 }
 .cart__summary-edit a {
   display: block;
